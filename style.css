@@ -51,7 +51,11 @@ section>div {
 }
 
 .bill input {
-    flex: 3;
+    flex: 1;
+}
+
+#yourBill {
+    width: 20%;
 }
 
 input[type="number"] {
@@ -119,8 +123,8 @@ footer p {
     }
 }
 
-@media screen and (max-width: 374px) {
+@media (max-width: 374px) {
     #yourBill {
-        width: 30%;
+        width: 20%;
     }
 }
