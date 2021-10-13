@@ -119,8 +119,8 @@ footer p {
     }
 }
 
-@media screen and (max-width: 400px) {
-    .bill input {
-        flex: 1;
+@media screen and (max-width: 374px) {
+    #yourBill {
+        width: 30%;
     }
 }
